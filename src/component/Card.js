@@ -100,7 +100,7 @@ const Card = ({...props}) => {
                     <button onClick={() => dispatch(actions.dislike(props.id))} className='button3'>
                         <img src={props.isDislike ? dislikeFilled : dislikeImg} alt=""/>
                     </button>
-                   {/* <button className='button3' onClick={() => dispatch(actions.reset())}>Reset</button>*/}
+                    <button className='button3' onClick={() => dispatch(actions.reset())}>Reset</button>
 
                 </div>
                 <div className='time'>
