@@ -15,6 +15,7 @@ const Card = ({...props}) => {
     const dispatch = useDispatch()
     //const states=useSelector(state=>state.status)
 
+
     const downloadFile = (e) => {
 
         const client = new UploadClient({publicKey: '0e835cd0740edffd80c5'})
